@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and input types</title>
+</head>
+<body>
+    <form action="submission.html" method="post">
+        <label>Name:
+        <input type="text"  placeholder="Name" required/></label><br><br>
+
+        <label>password:
+            <input type="pass" placeholder="password" required/> </label><br><br>
+
+            <label>Date:
+                <input type="date" placeholder="date"required/></label><br><br>
+
+        <label>Select gender:<br>
+            <label>male:
+            <input type="radio" 
+            name="gender"
+            value="male"/> </label><br>
+        <label>female:
+            <input type="radio"
+            name="gender"
+            value="male"/>
+             </label><br><br>
+
+             <label>languages known:
+                <ul style="list-style-type: none;">
+                <li><input type="checkbox"
+                    name="language"
+                    value="kannada"/>kannada
+                </li> 
+                <li><input type="checkbox"
+                    name="language"
+                    value="English"/>English
+                </li> 
+                <li><input type="checkbox"
+                    name="language"
+                    value="hindi"/>hindi
+                </li> 
+                </ul>
+                
+                <label>select your Country:
+                    <select name="country">
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="Lundon">Lundon</option>
+                    </select>
+             </label><br><br>
+
+             <button type="submit">Submit</button><br><br>
+             <button type="reset">reset</button>
+
+    </form>
+</body>
+</html>
